@@ -1,3 +1,7 @@
+img {
+    width: 100%
+}
+
 .hero-image {
     background-image: url(../images/brazil-6755874.jpg);
     background-position: center;
@@ -40,5 +44,18 @@ html, body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.three-column-layout-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(242, 174, 27,);
+    margin-top: 20px;
 }
