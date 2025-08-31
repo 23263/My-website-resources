@@ -42,8 +42,6 @@ html {
     font-size: 45px;
 }
 
-
-
 .three-column-layout {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -112,9 +110,10 @@ html {
     margin-top: 100px;
 }
 
-/* Start of PL page */
 
-.pl-hero-header {
+/* Start of General Page Functions */
+
+.league-hero-header {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
@@ -129,15 +128,7 @@ html {
     margin-top: -13px;
 }
 
-.pl-hero-image {
-    background-image: url(images/liverpool.jpg);
-    height: 470px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.pl-logo-header {
+.league-logo-header {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
@@ -147,8 +138,7 @@ html {
     margin-top: 125px;
 }
 
-
-.pl-logo-trophy-two-column-layout {
+.league-logo-trophy-two-column-layout {
     display: grid;
     grid-template-columns: 1fr 2fr;
     width: 90%;
@@ -162,18 +152,7 @@ html {
     font-size: large;
 }
 
-.pl-trophy-header {
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-    width: 100%;
-    font-size: x-large;
-    margin-top: 100px;
-    margin-bottom: 70px;
-}
-
-.pl-information-winners-header {
+.league-information-header {
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
@@ -183,7 +162,19 @@ html {
     margin-top: 100px;
 }
 
-.pl-information-winners-text {
+/* Start of PL Page */
+
+
+
+.pl-hero-image {
+    background-image: url(images/liverpool.jpg);
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.league-information-text {
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -199,4 +190,14 @@ html {
     margin: auto;
     margin-top: 20px;
     gap: 50px;
+}
+
+/* Start of Bundesliga Page */
+
+.bundesliga-hero-image {
+    background-image: url(images/bayern\ munich\ lifting\ bundesliga.avif);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
