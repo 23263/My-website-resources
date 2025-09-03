@@ -231,3 +231,13 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Start of La Liga Page */
+
+.la-liga-hero-image {
+    background-image: url();
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
