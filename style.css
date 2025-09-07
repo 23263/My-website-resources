@@ -210,8 +210,6 @@ html {
 
 /* Start of PL Page */
 
-
-
 .pl-hero-image {
     background-image: url(images/liverpool.jpg);
     height: 470px;
@@ -219,8 +217,6 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 /* Start of Bundesliga Page */
 
@@ -235,7 +231,7 @@ html {
 /* Start of La Liga Page */
 
 .la-liga-hero-image {
-    background-image: url();
+    background-image: url(images/barcelona\ bus\ parade\ real.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
