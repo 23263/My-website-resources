@@ -243,3 +243,13 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Start of Serie A Page */
+
+.serie-a-hero-image {
+    background-image: url(images/napoli\ lifting\ scudetto.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
