@@ -321,3 +321,14 @@ html {
 .inter {
     width: 100px;
 }
+
+/* Start of Ligue 1 Page */
+
+.ligue-1-hero-image {
+    background-image: url(images/psg\ lifting\ ligue\ 1\ real.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
